@@ -86,3 +86,35 @@ Luby's algorithm completed in 1243s.
 
 
 
+group7-2x2cores
+
+
+
+21/04/20 13:54:55 WARN org.apache.spark.SparkContext: Using an existing SparkContext; some configuration may not take effect.
+************************************************************
+Current Iteration = 1. Remaining vertices = 6909353
+************************************************************
+************************************************************
+Current Iteration = 2. Remaining vertices = 34647
+************************************************************
+************************************************************
+Current Iteration = 3. Remaining vertices = 435
+************************************************************
+************************************************************
+Current Iteration = 4. Remaining vertices = 3
+************************************************************
+************************************************************
+Current Iteration = 5. Remaining vertices = 0
+************************************************************
+************************************************************
+Total number of Iteration = 5
+************************************************************
+==================================
+
+Luby's algorithm completed in 1197s.
+
+19 min 57s
+
+
+The Luby's algorithm runs the fastest with GCP configuration of 3x4 cores which is 14 min 26 sec. With configuration 2x2 cores, the program took 19 min 57s(+47.96%). With configuration 4x2 cores, the program took 21 min 37s(+3.84%). 
+
